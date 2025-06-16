@@ -1,0 +1,44 @@
+
+/*
+Theme Name: Architects Certificate
+Description: Professional Architect's Certificate website theme with modern design and building regulations focus
+Version: 1.0
+Author: Your Name
+*/
+
+/* This theme uses Tailwind CSS loaded via CDN in the index.php file */
+
+/* Custom styles for WordPress theme */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure proper spacing for fixed navigation */
+.hero-gradient {
+    padding-top: 80px;
+}
+
+/* Additional custom styles can be added here */
+.wp-admin-bar-showing .hero-gradient {
+    padding-top: 112px; /* Account for WordPress admin bar */
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Form focus states */
+input:focus, 
+textarea:focus, 
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Hover effects for cards */
+.service-card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
