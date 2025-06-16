@@ -1,57 +1,66 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileText, Shield, Building, Users } from "lucide-react";
+import { FileText, Shield, Building, Zap } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
       icon: FileText,
-      title: "Building Regulations",
-      description: "Complete building regulations applications and approvals for residential and commercial projects."
-    },
-    {
-      icon: Shield,
-      title: "Safety Certificates",
-      description: "Comprehensive safety assessments and certification for existing and new constructions."
+      title: "Architect's Certificate",
+      description: "Professional certification for building regulations compliance, ensuring your project meets all required standards.",
+      price: "From £295"
     },
     {
       icon: Building,
-      title: "Structural Reports",
-      description: "Detailed structural analysis and reporting for renovation, extension, and new build projects."
+      title: "Structural Calculations",
+      description: "Comprehensive structural analysis and calculations for extensions, loft conversions, and new builds.",
+      price: "From £450"
     },
     {
-      icon: Users,
-      title: "Planning Applications",
-      description: "Professional planning application services to navigate local authority requirements."
+      icon: Shield,
+      title: "Building Regulations",
+      description: "Complete building regulations application service including drawings, calculations, and submissions.",
+      price: "From £795"
+    },
+    {
+      icon: Zap,
+      title: "Fast Track Service",
+      description: "Express service for urgent projects with guaranteed 48-hour turnaround for standard certificates.",
+      price: "From £395"
     }
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Our Professional Services
+            Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We provide comprehensive architectural certification services to ensure your project 
-            meets all regulatory requirements and safety standards.
+            Professional architectural services for building regulations compliance. 
+            We make the process simple and straightforward.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="text-center hover:shadow-lg transition-shadow duration-300">
+            <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border border-gray-200">
               <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                  <service.icon className="h-8 w-8 text-blue-900" />
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                    <service.icon className="h-6 w-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-lg font-bold text-gray-900">
+                      {service.title}
+                    </CardTitle>
+                    <div className="text-blue-600 font-semibold">{service.price}</div>
+                  </div>
                 </div>
-                <CardTitle className="text-xl font-bold text-gray-900">
-                  {service.title}
-                </CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600">
+                <CardDescription className="text-gray-600 text-base">
                   {service.description}
                 </CardDescription>
               </CardContent>
