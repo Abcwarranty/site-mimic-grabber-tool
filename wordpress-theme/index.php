@@ -37,7 +37,7 @@
                     class="h-10 w-auto"
                 />
                 <div class="text-xl font-bold text-blue-600">
-                    ArchitectsCertificate.co.uk
+                    ArchitectsCertificates.com
                 </div>
             </div>
             
@@ -312,7 +312,7 @@
                         <div>
                             <h3 class="text-lg font-semibold text-gray-900 mb-2">Email</h3>
                             <p class="text-gray-600">Send us your project details</p>
-                            <a href="mailto:info@architectscertificate.co.uk" class="text-blue-600 font-semibold hover:underline">info@architectscertificate.co.uk</a>
+                            <a href="mailto:info@architectscertificates.com" class="text-blue-600 font-semibold hover:underline">info@architectscertificates.com</a>
                         </div>
                     </div>
                     
@@ -381,7 +381,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div class="col-span-1 md:col-span-2">
-                <h3 class="text-2xl font-bold mb-4">ArchitectsCertificate.co.uk</h3>
+                <h3 class="text-2xl font-bold mb-4">ArchitectsCertificates.com</h3>
                 <p class="text-gray-300 mb-6 max-w-md">
                     Professional Architect's Certificate services for building regulations. 
                     Fast, reliable, and cost-effective solutions from RIBA Chartered Architects.
@@ -412,7 +412,7 @@
                     </div>
                     <div class="flex items-center space-x-3">
                         <span class="text-gray-400">✉️</span>
-                        <span class="text-gray-300">info@architectscertificate.co.uk</span>
+                        <span class="text-gray-300">info@architectscertificates.com</span>
                     </div>
                 </div>
                 
@@ -428,7 +428,7 @@
         
         <div class="border-t border-gray-800 mt-8 pt-8 text-center">
             <p class="text-gray-400">
-                © 2024 ArchitectsCertificate.co.uk. All rights reserved. | Privacy Policy | Terms & Conditions
+                © 2024 ArchitectsCertificates.com. All rights reserved. | Privacy Policy | Terms & Conditions
             </p>
         </div>
     </div>

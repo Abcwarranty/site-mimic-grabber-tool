@@ -17,7 +17,7 @@ const Navigation = () => {
               className="h-10 w-auto"
             />
             <div className="text-xl font-bold text-blue-600">
-              ArchitectsCertificate.co.uk
+              ArchitectsCertificates.com
             </div>
           </div>
           
