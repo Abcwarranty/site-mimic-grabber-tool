@@ -12,7 +12,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <img 
-              src="/logo.png" 
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=400&fit=crop&crop=center" 
               alt="Architects Certificate Logo" 
               className="h-10 w-auto"
             />
