@@ -31,7 +31,12 @@
 <nav class="bg-white shadow-sm border-b border-gray-200 fixed w-full top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
-            <div class="flex items-center">
+            <div class="flex items-center space-x-3">
+                <img 
+                    src="<?php echo get_template_directory_uri(); ?>/images/logo.png" 
+                    alt="Architects Certificate Logo" 
+                    class="h-10 w-auto"
+                />
                 <div class="text-xl font-bold text-blue-600">
                     ArchitectsCertificate.co.uk
                 </div>
